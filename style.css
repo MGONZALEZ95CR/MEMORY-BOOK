@@ -1,20 +1,18 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #ADD8E6; /* Azul claro */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    color: #333; /* Color de texto */
 }
 
 h1 {
-    color:#333;
+    color: #333;
     margin-top: 50px;
 }
 
 p {
     color: #666;
     font-size: 18px;
-}body {
-    background-color: #ADD8E6; /* rojo */
-    color: #333; /* Color de texto */
 }
