@@ -3,41 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Bufete Chavarría Araya</title>
+    <style>
+        body {
+            background-color: black;
+            color: white; /* Color blanco para el texto general */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .title {
+            border: 3px solid gold; /* Borde dorado para el título */
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: gold; /* Texto dorado para el título */
+        }
+        .subtitle {
+            margin-top: 20px;
+            text-align: left;
+            font-size: 1.5em;
+            color: white; /* Texto blanco para el subtítulo */
+        }
+        .services {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: white; /* Texto blanco para los servicios */
+        }
+        .whatsapp-section {
+            margin-top: 30px;
+        }
+        .whatsapp-link {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .whatsapp-link:hover {
+            background-color: #075e54; /* Cambia el color en hover */
+        }
+    </style>
 </head>
 <body>
-    <h1>¡BIENVENIDO!</h1>
-    <p>Bienvenid@ a tu Libro de Aventuras  
-        Este pequeño libro ha sido creado para que guardes recuerdos únicos de cada lugar que visites. Aquí no hay reglas estrictas; lo importante es que captures lo que sientes y lo que te inspira en cada rincón del mundo. 
-        
-        Puedes dejar una nota, tomar una foto, marcar la hoja con tu huella manchada de la tierra que has pisado, o incluso pegar una factura, un boleto o cualquier cosa que te conecte con ese momento. 
-        
-        Este libro será una colección de historias personales, guardadas en pequeños gestos y objetos, que te recordarán lo vivido en cada lugar. ¡Hazlo tuyo y diviértete en cada página!
-</html><section>
-    <h2>Nuevas Recuerdos</h2>
-    <p>Aquí puedes agregar información sobre tus nuevos recuerdos o experiencias.
-    </p>
-</section>
-<img src="https://images.ctfassets.net/qpn1gztbusu2/4Md6qgTjZzZFXnOG1HAsx/0e9f1e9a92775e1867eb676c7b8bd3f7/libros_de_aventuras.png?fm=jpg&w=3840&q=70" alt="Descripción de la imagen" width="300" height="200">
-<a href="https://www.instagram.com/mgonzalezc1995/profilecard/?igsh=eXV0NTVucTM3M29o" target="_blank">Visita nuestro instragram</a>
+    <div class="container">
+        <div class="title">Bienvenido Bufete Chavarría Araya</div>
+        <div class="subtitle">
+            Nuestros servicios:
+        </div>
+        <div class="services">
+            Le brindamos asesoría jurídica. <br>
+            Realización de traspasos vehiculares, terrenos y casas. <br>
+            Matrimonios. <br>
+            Divorcios. <br>
+            Procesos Judiciales como:
+        </div>
 
-body {
-    background-color: #ADD8E6; /* Azul claro */
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #333; /* Color de texto */
-}
-
-h1 {
-    color: #333;
-    margin-top: 50px;
-}
-
-p {
-    color: #666;
-    font-size: 18px;
-}
-
+        <!-- Sección de WhatsApp -->
+        <div class="whatsapp-section">
+            <a href="https://wa.me/1234567890" class="whatsapp-link" target="_blank">
+                Contactar por WhatsApp
+            </a>
+        </div>
+    </div>
+</body>
+</html>
